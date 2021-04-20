@@ -1,7 +1,7 @@
 # PogupRapi
 
 Api Root :
-	https://rapi.pogup.com/
+	https://rapi.pogup.com
 
 Methods : 
   
