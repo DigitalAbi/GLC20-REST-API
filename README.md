@@ -1,5 +1,7 @@
 # PogupRapi
 
+  - [General API Information](#general-api-information)
+
 Api Root :
 	https://rapi.pogup.com
 
