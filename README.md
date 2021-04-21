@@ -2,6 +2,22 @@
 
 ## Description
 
+** Response Standarts :**
+```javascript
+ {
+   "api_version": 1.22,
+   "method": "method_name",
+   "error": 0,
+   "error_desc": "no_error",
+   "request_date_utc": 1619048513923,
+   "response_date_utc": 1619048513940,
+   "response_time_millisecond": 17,
+   "data": [
+     YOUR RESULT IN HERE
+   ]
+ }
+ ```
+
 ## Methods
 
 ### User Auth
