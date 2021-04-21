@@ -1,25 +1,15 @@
-# PogupRapi
+# Pogup Rapi
 
-  - [General API Information](#general-api-information)
+## Description
 
-Api Root :
-	https://rapi.pogup.com
-
-Methods : 
-  
-	servertime : [form elements=method] : return utc server time
-	
-  	auth       : [form elements=method,time,usermail,password] : return user auth key
-
-
+## Methods
 
 ### User Auth
-```
-post 
-```
+Get user authentication key for user processes.
+
+**Method Name:**
+auth
  
-
-
 **Parameters:**
 
 Name | Type | Mandatory | Description
@@ -46,3 +36,5 @@ password | STRING | YES |
   ]
 }
 ```
+
+# ****************************************************
