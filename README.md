@@ -2,7 +2,7 @@
 
 ## Description
 
-** Response Standarts :**
+**RESPONSE STANDARTS:**
 ```javascript
  {
    "api_version": 1.22,
