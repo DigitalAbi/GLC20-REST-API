@@ -82,7 +82,7 @@ Get current user information with "user_auth_key" .
  method | STRING | YES |
  user_auth_key | STRING | YES | 
 
- **Response:**
+ **Response:(Approved User)**
  Data type is object.
  ```javascript
  {
@@ -109,6 +109,49 @@ Get current user information with "user_auth_key" .
   }
 }
  ```
+
+
+
+ **Response:(Non Approved User)**
+ Data type is object.
+ ```javascript
+{
+  "api_version": 1.22,
+  "method": "auth_user_info",
+  "error": 0,
+  "error_desc": "no_error",
+  "request_date_utc": 1619059741867,
+  "response_date_utc": 1619059741910,
+  "response_time_millisecond": 43,
+  "data": {
+    "user_id": 13227,
+    "user_mail": "lider2135@hotmail.com",
+    "user_profile_card_name": "",
+    "user_profile_gsm_number": "",
+    "user_profile_card_nick": "",
+    "user_profile_card_location": "",
+    "user_profile_card_desc": "",
+    "user_profile_gender": 0,
+    "user_profile_link": "/pogup/users/user-13227.html",
+    "user_profile_image": "/Old____Assets/User/0.Jpg",
+    "user_profile_cover_image": "/src/assets/img/profile.png",
+    "user_approved": false,
+    "user_approve_fields": {
+      "user_bio": false,
+      "user_tck": false,
+      "user_gsm": false,
+      "user_mail": true
+    }
+  }
+}
+ ```
+
+
+
+
+
+
+
 
 ---
 
