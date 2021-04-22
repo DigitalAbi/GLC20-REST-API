@@ -47,7 +47,8 @@ Get user authentication key for user processes.
    "data": [
      {
        "user_auth_key": "018d2cd3bc457d7f74c65fc7b72b082dab371a08bfad877b083728ba83294157e9678828cec8197dda4d37b9ba0dbaea3d3460719eeaf0a9",
-       "user_auth_key_expire": 1621640190977
+       "user_auth_key_expire": 1621640190977,
+       "user_id": 1
      }
    ]
  }
