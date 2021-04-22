@@ -42,6 +42,7 @@ Get user authentication key for user processes.
  password | STRING | YES | 
 
  **Response:**
+ Data type is object.
  ```javascript
  {
    "api_version": 1.22,
