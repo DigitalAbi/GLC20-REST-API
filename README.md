@@ -148,7 +148,7 @@ Get current user information with "user_auth_key" .
 ---
 
 
-### Auth User Private Information
+### User Public Information
 Get any user information with user_id.
 
  **Method Name:**
