@@ -170,14 +170,14 @@ Get any user information with user_id.
  **Response:**
  Data type is object.
  ```javascript
- {
+{
   "api_version": 1.22,
   "method": "public_user_info",
   "error": 0,
   "error_desc": "no_error",
-  "request_date_utc": 1619216158277,
-  "response_date_utc": 1619216158330,
-  "response_time_millisecond": 53,
+  "request_date_utc": 1619216805893,
+  "response_date_utc": 1619216805953,
+  "response_time_millisecond": 60,
   "data": {
     "user_id": 8,
     "user_profile_card_name": "Bedirhan ",
@@ -188,7 +188,13 @@ Get any user information with user_id.
     "user_profile_link": "/league-of-legends/users/bgbedirhan-8.html",
     "user_profile_image": "/Old____Assets/User/0.Jpg",
     "user_profile_cover_image": "/src/assets/img/profile.png",
-    "user_approved": true
+    "user_approved": true,
+    "equipments": [],
+    "achievements": [],
+    "duels": [],
+    "tournaments": [],
+    "teams": [],
+    "matchs": []
   }
 }
  ```
