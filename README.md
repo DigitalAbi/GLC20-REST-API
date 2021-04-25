@@ -330,7 +330,6 @@ Get custom tournament list for tournaments page.
  tournaments
 
  **Parameters:**
- Data type is array.
  Name | Type | Mandatory | Description
  ------------ | ------------ | ------------ | ------------
  method | STRING | YES |
@@ -339,7 +338,7 @@ Get custom tournament list for tournaments page.
  page_number | INTEGER | NO | default value is 1 , use for paging
  page_offset | INTEGER | NO | default value is 12 , tournament count per page 
 
- **Response:**
+ **Response:** Data type is array.
  ```javascript
  soooonnn !!!
  ```
