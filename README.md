@@ -338,9 +338,156 @@ Get custom tournament list for tournaments page.
  page_number | INTEGER | NO | default value is 1 , use for paging
  page_offset | INTEGER | NO | default value is 12 , tournament count per page 
 
- **Response:** Data type is array.
+ **Response:** Data type is array. ("page_number" parameters is setted 2 on this sample response).
  ```javascript
- soooonnn !!!
+{
+  "api_version": 1.22,
+  "method": "tournaments",
+  "error": 0,
+  "error_desc": "no_error",
+  "request_date_utc": 1619387473017,
+  "response_date_utc": 1619387473133,
+  "response_time_millisecond": 116,
+  "data": {
+    "total_count": 20,
+    "page_offset": 12,
+    "page_number": 2,
+    "listing_first": 13,
+    "listing_last": 24,
+    "tournament_status_id": 0,
+    "game_id": 0,
+    "tournaments": [
+      {
+        "tournament_id": 1058,
+        "tournament_start_date": 1601910000,
+        "tournament_name": "NİLÜFER BELEDİYESİ VALORANT C",
+        "tournament_size": 32,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 3,
+        "tournament_game_name": "Valorant",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/3/1.Jpg",
+        "tournament_href_url": "/Tournament/1058/pogup-valorant-nilufer-belediyesi-valorant-c.html",
+        "tournament_game_name_short": "VALORANT"
+      },
+      {
+        "tournament_id": 1055,
+        "tournament_start_date": 1601827200,
+        "tournament_name": "NİLÜFER BELEDİYESİ VALORANT B",
+        "tournament_size": 32,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 3,
+        "tournament_game_name": "Valorant",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/3/1.Jpg",
+        "tournament_href_url": "/Tournament/1055/pogup-valorant-nilufer-belediyesi-valorant-b.html",
+        "tournament_game_name_short": "VALORANT"
+      },
+      {
+        "tournament_id": 1054,
+        "tournament_start_date": 1601744400,
+        "tournament_name": "NİLÜFER BELEDİYESİ VALORANT A",
+        "tournament_size": 32,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 3,
+        "tournament_game_name": "Valorant",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/3/1.Jpg",
+        "tournament_href_url": "/Tournament/1054/pogup-valorant-nilufer-belediyesi-valorant-a.html",
+        "tournament_game_name_short": "VALORANT"
+      },
+      {
+        "tournament_id": 1051,
+        "tournament_start_date": 1601823600,
+        "tournament_name": "NİLÜFER BELEDİYESİ PUBG B",
+        "tournament_size": 64,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 5,
+        "tournament_game_name": "Playerunknown's Battlegrounds",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/5/1.Jpg",
+        "tournament_href_url": "/Tournament/1051/pogup-playerunknowns-battlegrounds-nilufer-belediyesi-pubg-b.html",
+        "tournament_game_name_short": "PUBG"
+      },
+      {
+        "tournament_id": 1047,
+        "tournament_start_date": 1601740800,
+        "tournament_name": "NİLÜFER BELEDİYESİ PUBG A",
+        "tournament_size": 64,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 5,
+        "tournament_game_name": "Playerunknown's Battlegrounds",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/5/1.Jpg",
+        "tournament_href_url": "/Tournament/1047/pogup-playerunknowns-battlegrounds-nilufer-belediyesi-pubg-a.html",
+        "tournament_game_name_short": "PUBG"
+      },
+      {
+        "tournament_id": 1041,
+        "tournament_start_date": 1601910000,
+        "tournament_name": "NİLÜFER BELEDİYESİ LOL ( C )",
+        "tournament_size": 32,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 2,
+        "tournament_game_name": "League of Legends",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/2/1.Jpg",
+        "tournament_href_url": "/Tournament/1041/pogup-league-of-legends-nilufer-belediyesi-lol-c-.html",
+        "tournament_game_name_short": "L.O.L."
+      },
+      {
+        "tournament_id": 1040,
+        "tournament_start_date": 1601823600,
+        "tournament_name": "NİLÜFER BELEDİYESİ LOL (B )",
+        "tournament_size": 32,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 2,
+        "tournament_game_name": "League of Legends",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/2/1.Jpg",
+        "tournament_href_url": "/Tournament/1040/pogup-league-of-legends-nilufer-belediyesi-lol-b-.html",
+        "tournament_game_name_short": "L.O.L."
+      },
+      {
+        "tournament_id": 1039,
+        "tournament_start_date": 1601737200,
+        "tournament_name": "NİLÜFER BELEDİYESİ LOL (A )",
+        "tournament_size": 32,
+        "tournament_offline": 0,
+        "tournament_earning": 50000,
+        "tournament_fee": 0,
+        "tournament_status_id": 6,
+        "tournament_status_description": "Tamamlandı",
+        "tournament_game_id": 2,
+        "tournament_game_name": "League of Legends",
+        "tournament_cover_image": "/Old____Assets/GameWallPapers/2/1.Jpg",
+        "tournament_href_url": "/Tournament/1039/pogup-league-of-legends-nilufer-belediyesi-lol-a-.html",
+        "tournament_game_name_short": "L.O.L."
+      }
+    ]
+  }
+}
  ```
  
  
