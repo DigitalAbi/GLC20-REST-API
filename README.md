@@ -333,7 +333,7 @@ Get custom tournament list for tournaments page.
  Name | Type | Mandatory | Description
  ------------ | ------------ | ------------ | ------------
  method | STRING | YES |
- game_id | INTEGER | NO | default value is 0, if filter set game_id
+ game_id | INTEGER | NO | default value is 0 for all , if filter set game_id
  tournament_status_id | INTEGER | NO | default value is 0 for all , if filter set tournament_status_id
  page_number | INTEGER | NO | default value is 1 , use for paging
  page_offset | INTEGER | NO | default value is 12 , tournament count per page 
