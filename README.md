@@ -168,7 +168,7 @@ Get any user information with user_id.
  matchs | INTEGER | NO | default value is 0, if enable set 1 , response is array
 
  **Response:**
- Data type is object ("teams" parameter is setted 1 on this sample response).
+ Data type is object ("teams" and "tournaments" parameters is setted 1 on this sample response).
  ```javascript
 {
   "api_version": 1.22,
