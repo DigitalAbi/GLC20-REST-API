@@ -175,9 +175,9 @@ Get any user information with user_id.
   "method": "public_user_info",
   "error": 0,
   "error_desc": "no_error",
-  "request_date_utc": 1619218293797,
-  "response_date_utc": 1619218293840,
-  "response_time_millisecond": 43,
+  "request_date_utc": 1619378065477,
+  "response_date_utc": 1619378065540,
+  "response_time_millisecond": 63,
   "data": {
     "user_id": 1,
     "user_profile_card_name": "Batuhan KAHRAMAN",
@@ -186,13 +186,44 @@ Get any user information with user_id.
     "user_profile_card_desc": "Merhabalar... Benim ad&#305;m Batuhan. DigitalAbi olarakta tan&#305;yorsunuz. Oyuncuyum fakat daha &#231;ok yaz&#305;l&#305;m ile ilgiliyim. Oyun oynayaca&#287;&#305;ma bu sitenin kodlama g&#246;revini &#252;stlendim. ",
     "user_profile_gender": 1,
     "user_profile_link": "/playerunknowns-battlegrounds/users/batuhanz-1.html",
-    "user_profile_image": "/Old____Assets/User/1.Jpg?Rid=96385",
-    "user_profile_cover_image": "/Old____Assets/User/Cover_1.Jpg?Rid=88927",
+    "user_profile_image": "/Old____Assets/User/1.Jpg?Rid=10538",
+    "user_profile_cover_image": "/Old____Assets/User/Cover_1.Jpg?Rid=26982",
     "user_approved": true,
     "equipments": [],
     "achievements": [],
     "duels": [],
-    "tournaments": [],
+    "tournaments": [
+      {
+        "tournament_id": 2083,
+        "tournament_start_date": 1618245000,
+        "tournament_name": "Deneme Yeni Versiyon",
+        "tournament_size": 32,
+        "tournament_status_id": 3,
+        "tournament_status_description": "Maçlar Başladı",
+        "tournament_game_id": 2,
+        "tournament_game_name": "League of Legends"
+      },
+      {
+        "tournament_id": 1048,
+        "tournament_start_date": 1606158000,
+        "tournament_name": "TEST CS",
+        "tournament_size": 16,
+        "tournament_status_id": 3,
+        "tournament_status_description": "Maçlar Başladı",
+        "tournament_game_id": 1,
+        "tournament_game_name": "Counter-Strike:Global Offensive"
+      },
+      {
+        "tournament_id": 1046,
+        "tournament_start_date": 1599955200,
+        "tournament_name": "TEST 8",
+        "tournament_size": 2,
+        "tournament_status_id": 3,
+        "tournament_status_description": "Maçlar Başladı",
+        "tournament_game_id": 2,
+        "tournament_game_name": "League of Legends"
+      }
+    ],
     "teams": [
       {
         "team_owner": 1,
