@@ -494,10 +494,7 @@ Get custom tournament list for tournaments page.
  
  
  ---
- 
-
- 
----
+  
 
 ### Games
 Get all game list.
