@@ -591,6 +591,61 @@ Get pogin balance for teams or users
 
 
 
+ ---
+  
+
+### Banners
+Get tournament status descriptions.
+
+ **Method Name:**
+ tournament_status
+
+ **Parameters:**
+ Name | Type | Mandatory | Description
+ ------------ | ------------ | ------------ | ------------
+ method | STRING | YES | 
+
+ **Response:** Data type is array. 
+ ```javascript
+{
+  "api_version": 1.22,
+  "method": "tournament_status",
+  "error": 0,
+  "error_desc": "no_error",
+  "request_date_utc": 1619559371510,
+  "response_date_utc": 1619559371517,
+  "response_time_millisecond": 7,
+  "data": [
+    {
+      "tournament_status_id": 1,
+      "tournament_status_description": "Başlamadı"
+    },
+    {
+      "tournament_status_id": 2,
+      "tournament_status_description": "Katılım Başladı"
+    },
+    {
+      "tournament_status_id": 3,
+      "tournament_status_description": "Maçlar Başladı"
+    },
+    {
+      "tournament_status_id": 4,
+      "tournament_status_description": "Yarı Final"
+    },
+    {
+      "tournament_status_id": 5,
+      "tournament_status_description": "Final"
+    },
+    {
+      "tournament_status_id": 6,
+      "tournament_status_description": "Tamamlandı"
+    }
+  ]
+}
+ ```
+ 
+ 
+ 
 
 
 
