@@ -95,6 +95,7 @@ Get current user information with "user_auth_key" .
   "response_time_millisecond": 60,
   "data": {
     "user_id": 1,
+    "user_balance": 1960.84,
     "user_mail": "batuhanz@game.com.tr",
     "user_profile_card_name": "Batuhan KAHRAMAN",
     "user_profile_gsm_number": "5417720199",
@@ -125,6 +126,7 @@ Get current user information with "user_auth_key" .
   "response_time_millisecond": 43,
   "data": {
     "user_id": 13227,
+    "user_balance": 400.14,
     "user_mail": "lider2135@hotmail.com",
     "user_profile_card_name": "",
     "user_profile_gsm_number": "",
