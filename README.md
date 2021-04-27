@@ -652,6 +652,139 @@ Get tournament status descriptions.
 
 
 
+ ---
+  
+
+### Game List
+Get game list
+
+ **Method Name:**
+ game_list
+
+ **Parameters:**
+ Name | Type | Mandatory | Description
+ ------------ | ------------ | ------------ | ------------
+ method | STRING | YES | 
+
+ **Response:** Data type is array. 
+ ```javascript
+{
+  "api_version": 1.22,
+  "method": "game_list",
+  "error": 0,
+  "error_desc": "no_error",
+  "request_date_utc": 1619559538847,
+  "response_date_utc": 1619559538890,
+  "response_time_millisecond": 43,
+  "data": [
+    {
+      "game_id": 1,
+      "game_name": "Counter-Strike:Global Offensive",
+      "game_name_short": "CS:GO",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 1,
+      "game_order_number": 20
+    },
+    {
+      "game_id": 2,
+      "game_name": "League of Legends",
+      "game_name_short": "L.O.L.",
+      "game_platform_id": 2,
+      "game_platform_name": "Riot Games",
+      "game_tournament_enable": 1,
+      "game_order_number": 10
+    },
+    {
+      "game_id": 3,
+      "game_name": "Valorant",
+      "game_name_short": "VALORANT",
+      "game_platform_id": 2,
+      "game_platform_name": "Riot Games",
+      "game_tournament_enable": 1,
+      "game_order_number": 30
+    },
+    {
+      "game_id": 4,
+      "game_name": "Zula",
+      "game_name_short": "ZULA",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 0,
+      "game_order_number": 40
+    },
+    {
+      "game_id": 5,
+      "game_name": "Playerunknown's Battlegrounds",
+      "game_name_short": "PUBG",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 1,
+      "game_order_number": 11
+    },
+    {
+      "game_id": 6,
+      "game_name": "Fifa 2020",
+      "game_name_short": "FIFA2000",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 0,
+      "game_order_number": 1000
+    },
+    {
+      "game_id": 7,
+      "game_name": "Rocket League",
+      "game_name_short": "ROCKET LEAGUE",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 0,
+      "game_order_number": 1001
+    },
+    {
+      "game_id": 8,
+      "game_name": "Fortnite",
+      "game_name_short": "FORTNITE",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 1,
+      "game_order_number": 1002
+    },
+    {
+      "game_id": 9,
+      "game_name": "Rainbow Six Siege",
+      "game_name_short": "R6 SIEGE",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 0,
+      "game_order_number": 1003
+    },
+    {
+      "game_id": 10,
+      "game_name": "Brawl Stars",
+      "game_name_short": "BRAWL STARS",
+      "game_platform_id": 1,
+      "game_platform_name": "Steam",
+      "game_tournament_enable": 0,
+      "game_order_number": 1004
+    },
+    {
+      "game_id": 11,
+      "game_name": "PUBG - Mobile",
+      "game_name_short": "PUBG - MOBILE",
+      "game_platform_id": 10,
+      "game_platform_name": "not set",
+      "game_tournament_enable": 0,
+      "game_order_number": 1005
+    }
+  ]
+}
+ ```
+ 
+ 
+
+
+
+
 
 
 
