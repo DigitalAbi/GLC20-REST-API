@@ -496,126 +496,52 @@ Get custom tournament list for tournaments page.
  ---
   
 
-### Games
-Get all game list.
+### Banners
+Get banners for pages.
 
  **Method Name:**
- game_list
+ banners
 
  **Parameters:**
  Name | Type | Mandatory | Description
  ------------ | ------------ | ------------ | ------------
  method | STRING | YES |
+ banner_page | STRING | NO | filter banners for current page
 
  **Response:** Data type is array. 
  ```javascript
 {
   "api_version": 1.22,
-  "method": "game_list",
+  "method": "banners",
   "error": 0,
   "error_desc": "no_error",
-  "request_date_utc": 1619388624573,
-  "response_date_utc": 1619388624593,
-  "response_time_millisecond": 20,
+  "request_date_utc": 1619541920367,
+  "response_date_utc": 1619541920370,
+  "response_time_millisecond": 3,
   "data": [
     {
-      "game_id": 1,
-      "game_name": "Counter-Strike:Global Offensive",
-      "game_name_short": "CS:GO",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 1,
-      "game_order_number": 20
+      "banner_id": 1,
+      "banner_page": "Login",
+      "banner_url": "http://185.250.210.152:55/src/assets/img/slider-1.png",
+      "banner_order": 1,
+      "banner_countdown": 0,
+      "banner_countdown_date": 1619541033
     },
     {
-      "game_id": 2,
-      "game_name": "League of Legends",
-      "game_name_short": "L.O.L.",
-      "game_platform_id": 2,
-      "game_platform_name": "Riot Games",
-      "game_tournament_enable": 1,
-      "game_order_number": 10
+      "banner_id": 2,
+      "banner_page": "Home",
+      "banner_url": "https://www.pogup.com/Assets/Trash/Bayraktar_X_Drive.jpg",
+      "banner_order": 1,
+      "banner_countdown": 0,
+      "banner_countdown_date": 1619541104
     },
     {
-      "game_id": 3,
-      "game_name": "Valorant",
-      "game_name_short": "VALORANT",
-      "game_platform_id": 2,
-      "game_platform_name": "Riot Games",
-      "game_tournament_enable": 1,
-      "game_order_number": 30
-    },
-    {
-      "game_id": 4,
-      "game_name": "Zula",
-      "game_name_short": "ZULA",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 0,
-      "game_order_number": 40
-    },
-    {
-      "game_id": 5,
-      "game_name": "Playerunknown's Battlegrounds",
-      "game_name_short": "PUBG",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 1,
-      "game_order_number": 11
-    },
-    {
-      "game_id": 6,
-      "game_name": "Fifa 2020",
-      "game_name_short": "FIFA2000",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 0,
-      "game_order_number": 1000
-    },
-    {
-      "game_id": 7,
-      "game_name": "Rocket League",
-      "game_name_short": "ROCKET LEAGUE",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 0,
-      "game_order_number": 1001
-    },
-    {
-      "game_id": 8,
-      "game_name": "Fortnite",
-      "game_name_short": "FORTNITE",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 1,
-      "game_order_number": 1002
-    },
-    {
-      "game_id": 9,
-      "game_name": "Rainbow Six Siege",
-      "game_name_short": "R6 SIEGE",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 0,
-      "game_order_number": 1003
-    },
-    {
-      "game_id": 10,
-      "game_name": "Brawl Stars",
-      "game_name_short": "BRAWL STARS",
-      "game_platform_id": 1,
-      "game_platform_name": "Steam",
-      "game_tournament_enable": 0,
-      "game_order_number": 1004
-    },
-    {
-      "game_id": 11,
-      "game_name": "PUBG - Mobile",
-      "game_name_short": "PUBG - MOBILE",
-      "game_platform_id": 10,
-      "game_platform_name": "not set",
-      "game_tournament_enable": 0,
-      "game_order_number": 1005
+      "banner_id": 3,
+      "banner_page": "Home",
+      "banner_url": "https://www.pogup.com/Assets/Trash/Brawls_1_Stars.Jpg",
+      "banner_order": 2,
+      "banner_countdown": 0,
+      "banner_countdown_date": 1619541877
     }
   ]
 }
@@ -623,8 +549,6 @@ Get all game list.
  
  
  
- 
- ---
  
  
 
