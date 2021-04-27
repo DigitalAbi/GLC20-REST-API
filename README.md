@@ -552,6 +552,43 @@ Get banners for pages.
  
  
 
+ 
+ 
+ ---
+  
+
+### Balance
+Get pogin balance for teams or users
+
+ **Method Name:**
+ balance
+
+ **Parameters:**
+ Name | Type | Mandatory | Description
+ ------------ | ------------ | ------------ | ------------
+ method | STRING | YES |
+ balance_type | INTEGER | YES | set "1" for users, "2" for teams
+ balance_id | INTEGER | YES | if balance_type "1" send user_id , if balance_type = "2" send team_id
+
+ **Response:** Data type is array. 
+ ```javascript
+{
+  "api_version": 1.22,
+  "method": "balance",
+  "error": 0,
+  "error_desc": "no_error",
+  "request_date_utc": 1619548327437,
+  "response_date_utc": 1619548327440,
+  "response_time_millisecond": 3,
+  "data": {
+    "balance": 360.86,
+    "balance_id": 1,
+    "balance_type": 1
+  }
+}
+ ```
+ 
+ 
 
 
 
