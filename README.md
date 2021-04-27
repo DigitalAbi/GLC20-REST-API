@@ -517,21 +517,15 @@ Get banners for pages.
   "method": "banners",
   "error": 0,
   "error_desc": "no_error",
-  "request_date_utc": 1619541920367,
-  "response_date_utc": 1619541920370,
-  "response_time_millisecond": 3,
+  "request_date_utc": 1619558606920,
+  "response_date_utc": 1619558606927,
+  "response_time_millisecond": 7,
   "data": [
-    {
-      "banner_id": 1,
-      "banner_page": "Login",
-      "banner_url": "http://185.250.210.152:55/src/assets/img/slider-1.png",
-      "banner_order": 1,
-      "banner_countdown": 0,
-      "banner_countdown_date": 1619541033
-    },
     {
       "banner_id": 2,
       "banner_page": "Home",
+      "banner_description": "Banner Açıklaması 2",
+      "banner_action_url": "/?Ref=Banner_2",
       "banner_url": "https://www.pogup.com/Assets/Trash/Bayraktar_X_Drive.jpg",
       "banner_order": 1,
       "banner_countdown": 0,
@@ -540,6 +534,8 @@ Get banners for pages.
     {
       "banner_id": 3,
       "banner_page": "Home",
+      "banner_description": "Banner Açıklaması 3",
+      "banner_action_url": "#",
       "banner_url": "https://www.pogup.com/Assets/Trash/Brawls_1_Stars.Jpg",
       "banner_order": 2,
       "banner_countdown": 0,
