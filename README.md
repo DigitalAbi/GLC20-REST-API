@@ -673,9 +673,9 @@ Get game list
   "method": "game_list",
   "error": 0,
   "error_desc": "no_error",
-  "request_date_utc": 1619559538847,
-  "response_date_utc": 1619559538890,
-  "response_time_millisecond": 43,
+  "request_date_utc": 1619560351990,
+  "response_date_utc": 1619560352003,
+  "response_time_millisecond": 13,
   "data": [
     {
       "game_id": 1,
@@ -684,7 +684,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 1,
-      "game_order_number": 20
+      "game_order_number": 20,
+      "game_images": {
+        "game_image_main": "/asset/games/main/1.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/1.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/1.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/1.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/1.svg"
+      }
     },
     {
       "game_id": 2,
@@ -693,7 +700,14 @@ Get game list
       "game_platform_id": 2,
       "game_platform_name": "Riot Games",
       "game_tournament_enable": 1,
-      "game_order_number": 10
+      "game_order_number": 10,
+      "game_images": {
+        "game_image_main": "/asset/games/main/2.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/2.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/2.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/2.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/2.svg"
+      }
     },
     {
       "game_id": 3,
@@ -702,7 +716,14 @@ Get game list
       "game_platform_id": 2,
       "game_platform_name": "Riot Games",
       "game_tournament_enable": 1,
-      "game_order_number": 30
+      "game_order_number": 30,
+      "game_images": {
+        "game_image_main": "/asset/games/main/3.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/3.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/3.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/3.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/3.svg"
+      }
     },
     {
       "game_id": 4,
@@ -711,7 +732,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 0,
-      "game_order_number": 40
+      "game_order_number": 40,
+      "game_images": {
+        "game_image_main": "/asset/games/main/4.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/4.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/4.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/4.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/4.svg"
+      }
     },
     {
       "game_id": 5,
@@ -720,7 +748,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 1,
-      "game_order_number": 11
+      "game_order_number": 11,
+      "game_images": {
+        "game_image_main": "/asset/games/main/5.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/5.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/5.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/5.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/5.svg"
+      }
     },
     {
       "game_id": 6,
@@ -729,7 +764,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 0,
-      "game_order_number": 1000
+      "game_order_number": 1000,
+      "game_images": {
+        "game_image_main": "/asset/games/main/6.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/6.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/6.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/6.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/6.svg"
+      }
     },
     {
       "game_id": 7,
@@ -738,7 +780,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 0,
-      "game_order_number": 1001
+      "game_order_number": 1001,
+      "game_images": {
+        "game_image_main": "/asset/games/main/7.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/7.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/7.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/7.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/7.svg"
+      }
     },
     {
       "game_id": 8,
@@ -747,7 +796,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 1,
-      "game_order_number": 1002
+      "game_order_number": 1002,
+      "game_images": {
+        "game_image_main": "/asset/games/main/8.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/8.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/8.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/8.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/8.svg"
+      }
     },
     {
       "game_id": 9,
@@ -756,7 +812,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 0,
-      "game_order_number": 1003
+      "game_order_number": 1003,
+      "game_images": {
+        "game_image_main": "/asset/games/main/9.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/9.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/9.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/9.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/9.svg"
+      }
     },
     {
       "game_id": 10,
@@ -765,7 +828,14 @@ Get game list
       "game_platform_id": 1,
       "game_platform_name": "Steam",
       "game_tournament_enable": 0,
-      "game_order_number": 1004
+      "game_order_number": 1004,
+      "game_images": {
+        "game_image_main": "/asset/games/main/10.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/10.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/10.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/10.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/10.svg"
+      }
     },
     {
       "game_id": 11,
@@ -774,7 +844,14 @@ Get game list
       "game_platform_id": 10,
       "game_platform_name": "not set",
       "game_tournament_enable": 0,
-      "game_order_number": 1005
+      "game_order_number": 1005,
+      "game_images": {
+        "game_image_main": "/asset/games/main/11.jpg",
+        "game_image_tournament_cover": "/asset/games/tournament_cover/11.jpg",
+        "game_image_icon_light": "/asset/games/icon/light/11.png",
+        "game_image_icon_dark": "/asset/games/icon/dark/11.png",
+        "game_image_icon_vector": "/asset/games/icon/vector/11.svg"
+      }
     }
   ]
 }
