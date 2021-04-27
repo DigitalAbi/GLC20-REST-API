@@ -594,7 +594,7 @@ Get pogin balance for teams or users
  ---
   
 
-### Banners
+### Tournament Status List
 Get tournament status descriptions.
 
  **Method Name:**
