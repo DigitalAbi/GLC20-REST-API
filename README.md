@@ -1,6 +1,6 @@
-# Pogup Rapi
-*Batuhan KAHRAMAN*
-*22/04/2021*
+# GLC Token Rest Api Documentation
+* GLC DEVELOPER TEAM *
+*12/12/2022*
 
 **RESPONSE STANDARTS:**
 ```javascript
