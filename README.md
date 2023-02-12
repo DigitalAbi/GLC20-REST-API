@@ -2,11 +2,23 @@
 * GLC DEVELOPER TEAM *
 *12/12/2022*
 
-**REQUEST / RESPONSE SAMPLE : **
 
-*Request[GET]* : https://api.glc20dev.com/?action=tokeninfo
+## REQUEST / RESPONSE SAMPLE :
 
-*Response[JSON] *: 
+ **Method Name:**
+ tokeninfo
+ 
+  **Parameters:**
+
+ Name | Type | Mandatory | Description
+ ------------ | ------------ | ------------ | ------------
+ action | STRING | YES |
+ symbolid | INTEGER | NO |
+ 
+
+Request [ GET ] : https://api.glc20dev.com/?action=tokeninfo
+
+Response [JSON] : 
 
 ```javascript
  {
