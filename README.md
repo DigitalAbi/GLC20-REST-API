@@ -24,7 +24,8 @@ https://api.glc20dev.com/?action=tokeninfo
 **Request Method:**
 GET
 
-**Response Data[JSON FORMAT]:**
+**Response Data:**
+JSON
 
 ```javascript
  {
