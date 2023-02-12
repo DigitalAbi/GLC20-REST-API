@@ -16,9 +16,12 @@
  symbolid | INTEGER | NO |
  
 
-Request [ GET ] : https://api.glc20dev.com/?action=tokeninfo
+ **Request Url:**
+https://api.glc20dev.com/?action=tokeninfo
+**Request Method:**
+GET
 
-Response [JSON] : 
+**Response Data[JSON FORMAT]:**
 
 ```javascript
  {
