@@ -5,16 +5,8 @@
 **RESPONSE STANDARTS:**
 ```javascript
  {
-   "api_version": 1.22,
-   "method": "method_name",
-   "error": 0,
-   "error_desc": "no_error",
-   "request_date_utc": 1619048513923,
-   "response_date_utc": 1619048513940,
-   "response_time_millisecond": 17,
-   "data": [
-     YOUR RESULT IN HERE
-   ]
+{"api": 1.1, "code": 200, "action": "tokeninfo", "description": "Token Information", "data": {"symbolid": 1, "symbol": "GLC", "name": "Gameligo Token", "totalsupply": 27500000, "liveprice": 0, "network": "bsc20", "contract": "0x1253fedb6f9e00d0b6ae88b66786aa9ab91d49a0", "decimal": 8, "url": "https://bscscan.com/token/0x1253fedb6f9e00d0b6ae88b66786aa9ab91d49a0"}}
+
  }
  ```
 The "data" field returns as an array or an object. 
