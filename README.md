@@ -47,4 +47,83 @@ JSON
    }
  }
  ```
+ 
+ 
+ 
+ ### User Information
+Get basic token information from our developer network.
+
+ **Action Name:**
+ userinfo
+ 
+  **Parameters:**
+
+ Name | Type | Mandatory | Description
+ ------------ | ------------ | ------------ | ------------
+ action | STRING | YES |
+ key | STRING | YES | User UID
+ pid | INTEGER | YES | Platform Id
+ 
+**Request Url:**
+https://api.glc20dev.com/?action=userinfo&key=DF2EFA01-C933-4D51-AF65-9D6FE57F4ERT&pid=1
+
+**Request Method:**
+GET
+
+**Response Data:**
+JSON
+ 
+
+```javascript
+{
+   "api":1.12,
+   "code":200,
+   "action":"userinfo",
+   "description":"Public User Information",
+   "data":{
+      "AuthId":5,
+      "AuthPlatformId":1,
+      "AuthKey":"DF2EFA01-C933-4D51-AF65-9D6FE57F4ERT",
+      "AuthKeyResponse":"12F9309C-AC85-4B5F-B87F-C88C18DB4607",
+      "Deposit_Wallets":[
+         {
+            "Wallet_Id":5029,
+            "Wallet_Symbol":"USDT.TRC20",
+            "Wallet_Provider_Id":1,
+            "Wallet_Address":"TEe2KQZYBpsgdkFvCcJTN5uTDVUvLsvwUZ",
+            "Wallet_Tag_1":"",
+            "Wallet_Tag_2":""
+         },
+         {
+            "Wallet_Id":5053,
+            "Wallet_Symbol":"LTCT",
+            "Wallet_Provider_Id":1,
+            "Wallet_Address":"mypxqrReyCgdnUPqFps21TA24t1hPZmKW6",
+            "Wallet_Tag_1":"",
+            "Wallet_Tag_2":""
+         }
+      ]
+   }
+}
+ ```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
