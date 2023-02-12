@@ -29,11 +29,10 @@ JSON
 
 ```javascript
  {
-   "api": 1.22,
+   "api": 1.xx,
    "code": 200,
    "action":"tokeninfo"
    "description": "Token Information",
-   "response_time_millisecond": 17,
    "data": {
       "symbolid": 1, 
       "symbol": "GLC", 
