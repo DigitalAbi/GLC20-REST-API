@@ -20,6 +20,7 @@ Get basic token information from our developer network.
 
  **Request Url:**
 https://api.glc20dev.com/?action=tokeninfo
+
 **Request Method:**
 GET
 
