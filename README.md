@@ -2,16 +2,11 @@
 * GLC DEVELOPER TEAM *
 *12/12/2022*
 
-**REQUEST / RESPONSE SAMPLE:**
+**REQUEST / RESPONSE SAMPLE : **
 
-Request Url :
-https://api.glc20dev.com/?action=tokeninfo
+*Request[GET]* : https://api.glc20dev.com/?action=tokeninfo
 
-Request Method : 
-Get
-
-
-Response : 
+*Response[JSON] *: 
 
 ```javascript
  {
