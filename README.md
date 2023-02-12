@@ -2,10 +2,12 @@
 * GLC DEVELOPER TEAM *
 *12/12/2022*
 
+## Actions 
 
-## REQUEST / RESPONSE SAMPLE :
+### Token Information
+Get basic token information from our developer network.
 
- **Method Name:**
+ **Action Name:**
  tokeninfo
  
   **Parameters:**
