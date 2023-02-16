@@ -62,10 +62,10 @@ Get basic token information from our developer network.
  ------------ | ------------ | ------------ | ------------
  action | STRING | YES |
  key | STRING | YES | User UID
- pid | INTEGER | YES | Platform Id
+ pkey | STRING | YES | Platform Id
  
 **Request Url:**
-https://api.glc20dev.com/?action=userinfo&key=DF2EFA01-C933-4D51-AF65-9D6FE57F4ERT&pid=1
+https://api.glc20dev.com/?action=userinfo&key=DF2EFA01-C933-4D51-AF65-9D6FE57F4ERT&pkey=A9D2C619-19E5-4179-A6B5-BF3E1D881E2A
 
 **Request Method:**
 GET
