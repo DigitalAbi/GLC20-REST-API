@@ -109,13 +109,37 @@ JSON
  
  
  
+ ### Stake
+Send stake to user
+
+ **Action Name:**
+ stake
  
+  **Parameters:**
+
+ Name | Type | Mandatory | Description
+ ------------ | ------------ | ------------ | ------------
+ action | STRING | YES |
+ key | STRING | YES | User UID
+ pkey | STRING | YES | Platform Developer Key
+ symbol | STRING | YES | Contract Symbol
+ tetheramount | FLOAT | YES | Tether Amount
  
+**Request Url:**
+https://api.glc20dev.com/?action=stake&key=DF2EFA01-C933-4D51-AF65-9D6FE57F4ERT&pkey=A9D2C619-19E5-4179-A6B5-BF3E1D881E2A&symbol=DOONX&tetheramount=25
+  
+**Request Method:**
+GET
+
+**Response Data:**
+JSON
  
+```javascript
+ {"api": 1.12, "code": 200, "action": "stake", "description": "Send Stake Coin to User Wallet", "data": {"TetherAmount": 9.0, "Wallet_Balance": 9.0, "Stake_Price": 0.4, "Requested": 9.0, "Stake_Amount": 22.5, "Stake_ContractId": 4, "Stake_Wallet_Address": "0x2CD693fD28b026b6fc382a932e64D3F5455BFD8b", "Stake_Wallet_Symbol": "BSC20.DOONX"}}
  
+  ```
  
- 
- 
+
  
  
  
