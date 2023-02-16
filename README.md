@@ -135,9 +135,25 @@ GET
 JSON
  
 ```javascript
- {"api": 1.12, "code": 200, "action": "stake", "description": "Send Stake Coin to User Wallet", "data": {"TetherAmount": 9.0, "Wallet_Balance": 9.0, "Stake_Price": 0.4, "Requested": 9.0, "Stake_Amount": 22.5, "Stake_ContractId": 4, "Stake_Wallet_Address": "0x2CD693fD28b026b6fc382a932e64D3F5455BFD8b", "Stake_Wallet_Symbol": "BSC20.DOONX"}}
+
+{
+   "api":1.12,
+   "code":200,
+   "action":"stake",
+   "description":"Send Stake Coin to User Wallet",
+   "data":{
+      "TetherAmount":9.0,
+      "Wallet_Balance":9.0,
+      "Stake_Price":0.25,
+      "Requested":9.0,
+      "Stake_Amount":36.0,
+      "Stake_ContractId":4,
+      "Stake_Wallet_Address":"0x2CD693fD28b026b6fc382a932e64D3F5455BFD8b",
+      "Stake_Wallet_Symbol":"BSC20.DOONX"
+   }
+}
  
-  ```
+```
  
 
  
